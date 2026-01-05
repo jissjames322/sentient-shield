@@ -5,4 +5,4 @@ See Wiki at https://github. com/redcanaryco/invoke-atomicredteam/wiki for comple
 
 PS C:\Windows\system32> Test-Path C:\AtomicRedTeam\atomics
 
-True
+True 
