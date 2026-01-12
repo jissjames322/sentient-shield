@@ -82,6 +82,9 @@ sysmon/installation.md
 📸 Proof:
 screenshots/Sysmon view.png
 
+Detailed documentation available at:
+report/Week1-SOC-Setup-and-installation.md
+
 ## 🗓️ Week 2 – Detection & Monitoring
 
 ### 🔐 File Integrity Monitoring (FIM)
@@ -192,7 +195,7 @@ Recommended workflow:
 ## 📄 Report
 
 Detailed documentation available at:
-report/Sentient_Shield_Report.pdf
+report/Week2-Configure-Detection-Rules.md
 
 ## 🏁 Conclusion
 
@@ -211,8 +214,16 @@ report/Sentient_Shield_Report.pdf
 - Debugged iptables-nft vs legacy backend issues
 - Verified real-time attacker mitigation
 
+Tools & Technologies Used
+Wazuh Manager & Dashboard
+SSH (OpenSSH)
+Hydra (Brute-force simulation)
+iptables
+Kali Linux
+ubuntu agent
+
 Detailed documentation available at:
-report/Sentient_Shield_Report_week3.pdf
+report/Week3-Active-Response-IPS.md
 
 ## Week 4 – Threat Simulation (Ransomware)
 
@@ -221,3 +232,27 @@ The attack was executed on a Windows endpoint with Sysmon enabled to generate de
 All endpoint logs were collected by the Wazuh agent, correlated by the Wazuh Manager, and visualized in Kibana/OpenSearch.
 Alerts were mapped across the Kill Chain stages from execution to impact.
 This exercise validates detection visibility, MITRE mapping, and SOC alert investigation workflows.
+
+Tools Used:
+Atomic Red Team
+PowerShell
+MITRE ATT&CK Framework
+EDR Platform
+
+Activities Performed:
+Installed Atomic Red Team
+Executed selected ATT&CK techniques
+Observed alerts and telemetry
+Validated detection rules
+
+Screenshots:
+All screenshots are stored in the Screenshots folder.
+
+Outcome:
+Improved threat detection coverage
+Validated EDR effectiveness
+Hands-on MITRE ATT&CK mapping
+
+Detailed documentation available at:
+report/Week4-Threat-Simulation.md
+
